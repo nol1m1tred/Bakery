@@ -311,12 +311,56 @@ fill: var(--color-brand-normal)
 
 /* contact section  */
 
+.contact-section{
+  padding-bottom: 96px;
+}
+
 .contacts-container-overall{
  display: flex;
+ gap: 32px;
+}
+
+.container-map{
+  flex-shrink: 0;
+  border-radius: 16px;
+  border: none;
 }
 
 .contact-title{
   margin-bottom: 16px;
+}
+
+/* footer */
+
+.footer{
+  padding: 32px 0;
+}
+
+.footer-container{
+  display: flex;
+  gap: 20px;
+}
+.footer-address,
+.footer-nav{
+  display: flex;
+  flex-basis: 50%;
+  gap: 20px;
+}
+
+.footer-logo{
+  flex-grow: 1;
+}
+
+.footer-menu{
+  flex-grow: 1;
+}
+
+.address-menu{
+  flex-grow: 1;
+}
+
+.address-info{
+  flex-grow: 1;
 }
 
 
@@ -343,6 +387,7 @@ fill: var(--color-brand-normal)
   font-weight: 400;
   line-height: 1.5;
 }
+
 
 .footer{
   background-image: url(/images/footer-background.png);

@@ -189,7 +189,7 @@
           </div>
         </div>
       </section>
-      <section class="section" id="contact-section">
+      <section class="contact-section section" id="contact-section">
         <div class="container">
           <div class="contacts-container-overall">
             <div class="contacts-container">
@@ -197,9 +197,11 @@
                 Приєднуйтеся до мережі пекарень
               </h2>
               <p class="fill-form">Заповни форму, щоб ми звʼязались з тобою!</p>
+              <!-- form0 -->
             </div>
-            <div class="container-map">
+            <div>
               <iframe
+                class="container-map"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.1640531314047!2d30.491233500000003!3d50.4566697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce637bfe1717%3A0x5370c2254ad1b952!2z0LLRg9C70LjRhtGPINCh0ZbRh9C-0LLQuNGFINCh0YLRgNGW0LvRjNGG0ZbQsiwgNTQsINCa0LjRl9CyLCAwMjAwMA!5e0!3m2!1suk!2sua!4v1701788494663!5m2!1suk!2sua"
                 width="603"
                 height="595"
@@ -214,18 +216,22 @@
     </main>
     <footer class="footer">
       <div class="container">
-        <nav>
-          <a href="/html/index.html">
-            <img src="/images/logo.svg" alt="Логотип сучасної пекарні" />
-          </a>
-          <ul>
-            <li><a class="link" href="#tradition-section">Наші традиції</a></li>
-            <li><a class="link" href="#chiefs-section">Шеф-кухарі</a></li>
-            <li><a class="link" href="#formats-section">Формати</a></li>
-            <li><a class="link" href="#contact-section">Контакти</a></li>
-          </ul>
-          <address>
-            <ul>
+        <div class="footer-container">
+          <nav class="footer-nav">
+            <a class="footer-logo" href="/html/index.html">
+              <img src="/images/logo.svg" alt="Логотип сучасної пекарні" />
+            </a>
+            <ul class="footer-menu">
+              <li>
+                <a class="link" href="#tradition-section">Наші традиції</a>
+              </li>
+              <li><a class="link" href="#chiefs-section">Шеф-кухарі</a></li>
+              <li><a class="link" href="#formats-section">Формати</a></li>
+              <li><a class="link" href="#contact-section">Контакти</a></li>
+            </ul>
+          </nav>
+          <address class="footer-address">
+            <ul class="address-menu">
               <li>
                 <a class="address-link" href="tel:+38096000007">
                   + 38 (096) 000 00 07
@@ -265,15 +271,15 @@
                   ></use>
                 </svg>
               </li>
-              <li>
-                <a class="address-link" href="#" target="_blank"
-                  >Політика конфіденційності</a
-                >
-              </li>
             </ul>
-            <p class="info-secured">&copy; 2023 Дані захищені</p>
+            <div class="address-info">
+              <a class="address-link" href="#" target="_blank"
+                >Політика конфіденційності</a
+              >
+              <p class="info-secured">&copy; 2023 Дані захищені</p>
+            </div>
           </address>
-        </nav>
+        </div>
       </div>
     </footer>
   </body>
