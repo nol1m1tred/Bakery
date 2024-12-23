@@ -7,7 +7,9 @@
   --color-brand-normal: #cfcfbc;
 }
 
-*{
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 /* BAZOVANI RE4I */
@@ -348,6 +350,7 @@ fill: var(--color-brand-normal)
 }
 
 .footer-logo{
+  display: inline-block;
   flex-grow: 1;
 }
 
